@@ -1,0 +1,7 @@
+import { red } from 'chalk';
+import {createStore } from 'redux';
+import reducer from '../utils/reducers';
+
+const store = createStore(reducer);
+
+export default store;
